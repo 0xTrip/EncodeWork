@@ -1,6 +1,5 @@
 # Question 1 
-## The parameter X represents a function. Complete the function signature so that X is a standard ERC20 transfer function (other than the visibility) The query function should revert if the ERC20 function returns false.
-*function query(uint _amount, address _receiver, X) public { ... }*
+## The parameter X represents a function. Complete the function signature so that X is a standard ERC20 transfer function (other than the visibility) The query function should revert if the ERC20 function returns false. *function query(uint _amount, address _receiver, X) public { ... }*
 
 First let’s clarify that we know a signature for a standard ‘transfer function’. This could be used in an interface.
 ```
